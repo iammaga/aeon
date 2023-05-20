@@ -1,0 +1,711 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap");
+
+/* Mobile */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  width: 375px;
+  height: 5206px;
+  background: #FFFFFF;
+}
+
+.container {
+  height: 50vh;
+}
+
+.home {
+  background: #cbecff;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.ru {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 18px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0962e8;
+  background-color: #ffffff;
+  border-radius: 9999px;
+  margin-right: 12px;
+}
+
+.en {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 17px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #29374e;
+  margin-right: 8px;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 24px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.w_auto {
+  width: 100%;
+}
+
+#btn_demo {
+  background-color: #0962e8;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 14px 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #0962e8;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.m_4 {
+  margin: 16px;
+}
+
+.my-4 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.py_2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.p-2 {
+  padding: 8px;
+}
+
+.p_4 {
+  padding: 16px;
+}
+
+.text_5xl {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#kit {
+  background-color: #ffffff;
+  color: #0962e8;
+  border-radius: 24px;
+  margin-left: 8px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+
+.text_lg {
+  font-size: 18px;
+}
+
+.mb_2 {
+  margin-bottom: 8px;
+}
+
+.pb_2 {
+  padding-bottom: 8px;
+}
+
+.skills {
+  width: min-content;
+  background-color: #ffffff;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  margin: 16px 8px;
+  padding: 12px;
+  align-items: center;
+  justify-content: space-between;
+  /* -webkit-box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+  box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11); */
+}
+
+.top {
+  -webkit-box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+  box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+}
+
+.skills > img {
+  padding: 8px;
+  /*position: absolute;
+  bottom: 108px;*/
+  border: 1px solid #eff9ff;
+  background-color: #eff9ff;
+  border-radius: 9999px;
+  -webkit-border-radius: 9999px;
+  -moz-border-radius: 9999px;
+  -ms-border-radius: 9999px;
+  -o-border-radius: 9999px;
+}
+
+.items_center {
+  align-items: center;
+}
+
+.icon {
+  font-size: 14px;
+  padding: 16px 0;
+}
+
+#products {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  margin: 40px 16px;
+}
+
+#products span {
+  color: #0962e8;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.strategies {
+  background-color: #e9f6ff;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  min-height: 200px;
+  padding-top: 8px;
+}
+
+.strategies img {
+  padding: 16px 16px 0 0;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 34px;
+}
+
+#advising-content img {
+  min-width: 150px;
+}
+
+.text_sm {
+  font-size: 12px;
+  max-width: 285px;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.text_base {
+  font-size: 16px;
+}
+
+#broker {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  margin: 40px 16px 8px 16px;
+}
+
+#broker span {
+  color: #0962e8;
+}
+
+.mx_4 {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.px-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#advantages {
+  display: block;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.m_auto {
+  margin: auto;
+}
+
+#advantages_bottom {
+  margin-top: 40px;
+}
+
+/* tablet */
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  body {
+    width: 100%;
+  }
+  .home {
+    width: 100%;
+  }
+  .justify_between {
+    justify-content: space-evenly;
+  }
+  .skills {
+    width: 100%;
+    margin: 4px 4px;
+    height: 150px;
+  }
+  .skills img {
+    position: relative;
+    top: -20px;
+  }
+  .text_sm {
+    font-size: 16px;
+  }
+  .text_base {
+    font-size: 20px;
+  }
+  .icon {
+    font-size: 16px;
+    padding: 0 0 16px 0;
+  }
+  .iphone {
+    width: 100%;
+  }
+  #products {
+    width: auto;
+  }
+  .strategies {
+    width: auto;
+  }
+  #broker {
+    line-height: 200%;
+    margin: 40px 16px 16px 16px;
+  }
+  .half p {
+    font-size: 14px;
+  }
+  .half #broker .head {
+    font-size: 24px;
+    line-height: 100%;
+  }
+  .m_4 {
+    margin: 8px;
+  }
+  .big {
+    -webkit-box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+    box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+  }
+}
+
+/* laptop */
+
+@media only screen and (max-width: 1100px) and (min-width: 769px) {
+  body {
+    width: 100%;
+  }
+  .languages {
+    padding: 20px 10%;
+  }
+  #general {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+  }
+  #strategies {
+    display: flex;
+  }
+  #advantages {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  #products {
+    width: auto;
+    font-size: 30px;
+  }
+  .advantages_bottom {
+    display: block;
+  }
+  .left_advantages {
+    margin: 16px 0;
+  }
+  .right_advantages {
+    margin: 16px 0;
+  }
+  .left_advantages_bottom {
+    margin: 16px 0;
+  }
+  .right_advantages_bottom {
+    margin: 16px 0;
+  }
+  .skills {
+    margin: 0 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    width: 250px;
+  }
+  .skills img {
+    width: 40px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  .half #broker .head {
+    font-size: 30px;
+  }
+  #broker {
+    line-height: 200%;
+    margin: 40px 16px 16px 16px;
+  }
+  .half p {
+    font-size: 20px;
+  }
+  .broker {
+    display: block;
+  }
+  #advantages_bottom {
+    display: block;
+  }
+  .width {
+    width: 80%;
+  }
+  .justify_between {
+    justify-content: space-evenly;
+  }
+  .strategies {
+    width: auto;
+  }
+  .big {
+    -webkit-box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+    box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.11);
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1535px) and (min-width: 1100px) {
+  body {
+    width: 100%;
+  }
+  #general {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  #strategies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #advantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    bottom: -75px;
+  }
+  .advantages_bottom {
+    display: block;
+  }
+  .left_advantages {
+    margin: 16px 0;
+  }
+  .right_advantages {
+    margin: 16px 0;
+  }
+  .left_advantages_bottom {
+    margin: 16px;
+  }
+  .right_advantages_bottom {
+    margin: 16px;
+  }
+  .skills {
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+  }
+  .skills img {
+    width: 40px;
+  }
+  .big img {
+    width: 50px;
+  }
+  .top {
+    flex-direction: row-reverse;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  .broker {
+    display: flex;
+  }
+  .home {
+    padding: 0 10%;
+  }
+  .finkit {
+    width: 80%;
+  }
+  .text_lg {
+    font-size: 22px;
+  }
+  .mb_2 {
+    margin-bottom: 16px;
+  }
+  #btn_demo {
+    background-color: #0962e8;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 14px 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #0962e8;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  .button {
+    align-items: center;
+    justify-content: flex-start;
+    width: min-content;
+  }
+  #products {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    margin: 100px 16px 40px 16px;
+    text-align: center;
+  }
+  #broker {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    margin: 40px 16px 8px 16px;
+    width: auto;
+  }
+  #broker p {
+    font-size: 38px;
+  }
+  .half p {
+    font-size: 22px;
+  }
+  .broker {
+    width: 100%;
+  }
+  .half {
+    width: 60%;
+  }
+  .justify_center {
+    justify-content: center;
+  }
+  #strategies {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+  }
+  .strategies {
+    min-height: 300px;
+  }
+  .width {
+    padding: 0 10%;
+  }
+  .text_center {
+    text-align: start;
+  }
+  .strategies h3 {
+    font-size: 22px;
+  }
+  .strategies p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  body {
+    width: 100%;
+  }
+  .languages {
+    padding: 20px 10%;
+  }
+  #general {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  #strategies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #advantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -75px;
+  }
+  .advantages_bottom {
+    display: block;
+    margin-top: 40px;
+  }
+  .left_advantages {
+    margin-right: 0;
+  }
+  .right_advantages {
+    margin-left: 0;
+  }
+  .left_advantages_bottom {
+    margin: 16px;
+  }
+  .right_advantages_bottom {
+    margin: 16px;
+  }
+  .skills {
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+  }
+  .skills img {
+    width: 40px;
+  }
+  .big img {
+    width: 50px;
+  }
+  .top {
+    flex-direction: row-reverse;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  .broker {
+    display: flex;
+    align-items: center;
+  }
+  .home {
+    padding: 0 10%;
+  }
+  .iphone {
+    text-align: center;
+    width: 80%;
+    height: 50%;
+  }
+  .finkit {
+    width: 80%;
+    padding: 0 0 0 10%;
+  }
+  .text_lg {
+    font-size: 22px;
+  }
+  .mb_2 {
+    margin-bottom: 16px;
+  }
+  #btn_demo {
+    background-color: #0962e8;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 14px 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #0962e8;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  .button {
+    align-items: center;
+    justify-content: flex-start;
+    width: min-content;
+  }
+  #products {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    margin: 100px 16px 40px 16px;
+    text-align: center;
+  }
+  #broker {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    margin: 40px 16px 8px 16px;
+  }
+  #broker p {
+    font-size: 38px;
+  }
+  .half p {
+    font-size: 22px;
+  }
+  .justify_center {
+    justify-content: center;
+  }
+  #strategies {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .width {
+    padding: 0 18%;
+  }
+  .text_center {
+    text-align: start;
+  }
+  .strategies h3 {
+    font-size: 30px;
+  }
+  .strategies p {
+    font-size: 22px;
+  }
+}
